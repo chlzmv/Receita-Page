@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    width: 1200px;
+}
+
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+header{
+    background-image: url(../img/banana-bread.jpg);
+    height: 480px;
+    width: 1200px;
+    
+    
+}
+
+.titulo{
+    color:rgb(117, 94, 67);
+    padding-top: 17em;
+    padding-left: 1.5em;
+}
+
+h1{
+    font-size: 4.5em;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+.infoSite{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.conteinterForma{
+    display: flex ;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 5%;
+}
+
+.forma1, .forma2, .forma3{
+     background-color:  rgb(117, 94, 67);
+    height: 5em;
+    width: 11em;
+    border-radius: 35px;
+    color: rgb(204, 202, 196);
+    margin-right: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2{
+    color:rgb(117, 106, 95);
+    font-size: 2.2em;
+    margin-top: 1em;;
+    margin-bottom: 0.5em;;
+}
+
+.conteudos{
+    display: flex;
+}
+
+p{
+    font-size: 1.4em;
+}
+
+li{
+    font-size: 1.4em;
+    width: 41.2em;
+}
+
+.sobreP{
+    width: 43em;
+    text-align: justify;
+}
+.ulIngr{
+    width: 34em;
+}
+.imageIngr{
+    height: 17em;
+    width: 26em;
+}
+
+.olModoPrep{
+    width: 4em;
+}
+
+.fonte{
+    margin-top: 3em;
+    color: rgb(117, 117, 116);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    color: rgb(117, 117, 116);
+}
+
+.linkComp>a{
+    font-size: 0.7em;
+    font-weight: bold;
+    color: rgb(146, 134, 95);
+    text-decoration: none;
+    text-decoration: underline;
+    margin-right: 0.5em;
+    
+}
+
+.pComp{
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+}
+.pDesenv{
+    margin-bottom: 0.4em;
+}
+
+.conteinerComp{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: -7.5em;
+    text-align: center;
+}
+
+footer{
+    margin-top: 3em;
+    padding-top: 2.5em;;
+    background-color:rgb(206, 215, 221);
+    width: 1200px;
+    height: 7em;
+    text-align: center;
+    font-size: 0.7em;
+    margin-right: 0.5em;
+    color: rgb(139, 139, 139);
+}
+footer>a{
+    color: rgb(139, 139, 139);
+}
